@@ -1,0 +1,182 @@
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin-top: 1rem;
+    }
+    #top{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #nav{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #icon image{
+        height: 37px;
+        width: 307px;
+    }
+    #top #search input{
+        height: 2rem;
+        width: 25rem;
+        padding: 0 0 0 1rem;
+        border: .5px solid black;
+        border-top-left-radius: 4rem;
+        border-bottom-left-radius: 4rem;
+    }
+    #search{
+        display: flex;
+    }
+    #search i{
+        background-color: #3d72a3;
+        height: 13px;
+        width: 25px;
+        padding: 10px;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    #search i:hover{
+        background-color: #286094;
+    }
+    #top #sign button{
+        height: 2rem;
+        width: 7rem;
+        border-radius: .5rem; 
+        background-color: #3d72a3;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #top #sign button:hover{
+        background-color: #286094;
+    }
+    .nav{
+        background-color: #3d72a3;
+        background-color: #223345;
+        /* padding: 8px; */
+        height: 43px;
+        width: 281px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#ffffff;
+        cursor: pointer;
+    }
+    .nav:hover{
+        background-color: #3d72a3;
+    }
+    #nav1 i{
+        margin: 0 0 0 1.5rem;
+    }
+
+
+
+
+                        /* Main Section */
+
+                     
+
+    #main{
+        margin:10px 40px 0 40px;
+        padding: 0 15px 24px;
+    }
+    #banner img{
+        width: 1410px;
+        height: 100%px;
+    }
+
+
+
+
+                          /* Footer Section */
+
+
+    #foot{
+        height: 268px;
+        width: 1519px;
+        background-color: #223345;
+    }
+    .footer-content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 50px 50px 20px;
+
+        
+                            /* Footer Section-content-1 */
+
+    }
+    .footer-sub-content-1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+    }
+    .footer-sub-content-1-img{
+        display: flex;
+        justify-content:flex-end;
+        align-items:center ;
+        width: 400px;
+        text-align: end;
+    }
+    .para-content{
+        flex-wrap: wrap;
+    }
+    .footer-sub-content-1-img-img1 img{
+        width: 70%;
+    }
+
+                        /* Footer Section-content-2 */
+                          
+    .footer-sub-content-2{
+        color: #fff;
+        list-style: none;
+    }
+    .footer-sub-content-2 h3{
+        margin: 0 0 10px 0;
+    }
+    .footer-sub-content-2 li {
+        margin: 10px 0 0 0 ;
+
+    }
+    .footer-sub-content-2 li a{
+        color: whitesmoke;
+    }
+    #content-fav{
+        margin: 20px 0 0 0;
+    }
+
+                          /* Footer Section-content-3 */
+
+    .footer-sub-content-3{
+        color: #fff;
+        list-style: none;
+    }
+    .footer-sub-content-3 li{
+        margin: 10px 0 5px 0 ;
+    }
+    .footer-sub-content-3 li a{
+        color: #fff;
+    }
+    .footer-sub-content-3 h3{
+        margin: 0 0 10px 0;
+    }
+
+
+
+    .footer-sub-content-4 #googlepay{
+        margin: -50px 0 20px 0;
+    }
+    .footer-sub-content-4 #googlepay img{
+        width: 130px;
+        height: 40px;
+    }
+    .footer-sub-content-4 #apple img{
+        width: 130px;
+    }
